@@ -11,7 +11,7 @@ IP Location Finder is a Python script that retrieves geolocation information bas
 
 git clone https://github.com/MehranTurk/IP-Location-Finder.git
 
-cd ip-location-finder
+cd IP-Location-Finder
 
 
 ## Usage
