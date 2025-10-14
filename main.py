@@ -7,7 +7,7 @@ init()
 
 def get_location(ip):
     try:
-        response = requests.get(f"http://ip-api.com/json/{ip}")
+        response = requests.get(f"https://ip-api.com/json/{ip}")
         data = response.json()
         if data["status"] == "success":
             return data
@@ -54,3 +54,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
